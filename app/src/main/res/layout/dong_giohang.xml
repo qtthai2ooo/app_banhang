@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:adjustViewBounds="true"
+            android:layout_margin="5dp"
+            android:id="@+id/imageviewgiohang"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:text="Tên giỏ hàng"
+            android:textColor="#123123"
+            android:id="@+id/textviewtengiohang"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Giá sản phẩm"
+            android:textSize="20sp"
+            android:textColor="#f20"
+            android:textStyle="bold"
+            android:id="@+id/textviewgiagiohang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+
+                android:focusable="false"
+                android:text="-"
+                android:id="@+id/buttonminus"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:background="@null"
+                android:focusable="false"
+                android:text="1"
+                android:id="@+id/buttonvalues"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:focusable="false"
+                android:text="+"
+                android:id="@+id/buttonplus"
+                android:layout_margin="5dp"
+                android:textSize="15dp"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

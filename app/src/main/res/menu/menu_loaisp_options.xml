@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/loaisp_add" android:title="Thêm" app:showAsAction="never"/>
+    <item android:id="@+id/loaisp_edit" android:title="Sửa" app:showAsAction="never"/>
+    <item android:id="@+id/loaisp_delete" android:title="Xoá" app:showAsAction="never"/>
+
+</menu>
